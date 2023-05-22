@@ -1,0 +1,224 @@
+body {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #212A3E;
+    box-shadow: 0 4px 0 rgba(211, 136, 136, 0.4);
+
+
+}
+
+.nav>h1 {
+    color: aliceblue;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-list {
+    display: flex;
+    gap: 30px;
+    margin-right: 70px;
+    margin-top: 30px;
+    color: aliceblue;
+
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+ul {
+    list-style: none;
+    font-size: 20px;
+}
+
+ul>li>a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+ul>li>a:hover {
+    background-color: rgb(199, 212, 223);
+    text-align: -webkit-match-parent;
+}
+
+#portfolio {
+    color: #b8c6e0;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    background-color: #9BA4B5;
+    padding: 0;
+}
+
+.welcome>h1 {
+    color: aliceblue;
+    font-size: 60px;
+
+}
+
+.welcome>h1:hover {
+    font-size: 80px;
+    color: #3b4969;
+}
+
+.welcome>p {
+    color: #212A3E;
+    font-size: 30px;
+}
+
+.My-projects {
+    text-align: center;
+    background-color: #5a2828;
+
+
+}
+
+.My-projects>h2 {
+    color: aliceblue;
+    font-size: 48px;
+    text-decoration: underline;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.grid-div {
+    display: grid;
+    grid-gap: 8rem;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
+
+* {
+    margin: 0;
+}
+
+.project-image {
+    height: calc(100% - 8rem);
+    width: 100%;
+}
+
+.project-title {
+    font-size: 2rem;
+    padding: 2rem 0.5rem;
+}
+
+
+
+
+@media (max-width: 28.75em) {
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+.Contact_Me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    background-color: #9BA4B5;
+
+}
+
+.contact-header>h2 {
+    font-size: 60px;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.contact-header>p {
+    color: #212A3E;
+    text-align: center;
+    font-size: 30px;
+}
+
+@media (max-width: 28.75em) {
+    .contact-section-header>h2 {
+        font-size: 4rem;
+    }
+}
+
+.contact-section-header>p {
+    font-style: italic;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 980px;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+
+a {
+    color: #212A3E;
+    text-decoration: none;
+}
+
+.contact-details {
+    font-size: 2.4rem;
+    transition: transform 0.3s ease-out;
+
+}
+
+.contact-details:hover {
+    transform: translateY(-12px);
+    background-color: aliceblue;
+    border-radius: 50px;
+}
+
+.project-tile {
+    background-color: #3b0606;
+    color: aliceblue;
+    max-width: 600px;
+}
+
+.names {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #5a2828;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: -40px;
+}
+
+.names:hover {
+    color: #b8c6e0;
+    font-style: italic;
+    background-color: #3b0606;
+    font-family: 'Courier New', Courier, monospace;
+}
